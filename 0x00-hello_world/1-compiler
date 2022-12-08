@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc hello.c -E $CFILE -o hello.o
