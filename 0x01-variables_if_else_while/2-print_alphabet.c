@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <stdout.h>
 /**
  * main - main function prints alphabetic in lowercase
  *
