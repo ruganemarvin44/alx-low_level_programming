@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - main function prints digits of base ten
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int a;
+	int i;
 
-	for (a = 0; a <= 9; a++)
-		putchar(a);
+	for (i = 0; i <= 9; i++)
+		putchar(i);
 	putchar('\n');
 	return (0);
 }
