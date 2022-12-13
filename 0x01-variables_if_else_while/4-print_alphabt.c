@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - main function prints lowercase alphabets except q and e
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  *
@@ -10,7 +10,8 @@
 int main(void)
 {
 	char c;
-	char c = 'a';
+
+	c = 'a';
 
 	while
 		(c <= 'z')
