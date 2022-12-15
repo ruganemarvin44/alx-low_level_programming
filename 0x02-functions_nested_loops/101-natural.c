@@ -7,14 +7,16 @@
  */
 int main(void)
 {
-	int x;
+	int x, z = 0;
 
-	for (x < 1024)
+	while (x < 1024)
 	{
-		if ((x / 3) || (x / 5))
-		_putchar(x + '0');
-		x++;
+		if ((x % 3 == 0) || (x % 5 == 0))
+		{
+		z += i;
+		}
+		i++;
 	}
-
+	printf("%d\n", z);
 	return (0);
 }
