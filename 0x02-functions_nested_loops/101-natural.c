@@ -13,9 +13,9 @@ int main(void)
 	{
 		if ((x % 3 == 0) || (x % 5 == 0))
 		{
-		z += i;
+		z += x;
 		}
-		i++;
+		x++;
 	}
 	printf("%d\n", z);
 	return (0);
