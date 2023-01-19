@@ -8,21 +8,13 @@
  * @f: pointer to function
  *
  *
- * Return: Always 0
+ * Return: nothing
  */
 void print_name(char *name, void (*f)(char *))
 {
-	char name
-		name == a && z;
+	if (name == NULL || f == NULL)
+		return;
 
-		if ((a > 'a') && (z < 'z'))
-		{
-			putchar ("name", &name);
-			putchar ('\n');
-		}
-		else
-		{
-		}
-	return (0);
+	f(name);
 }
 
