@@ -12,7 +12,7 @@ dog_t *new_dog(char *name, float age, char *owner);
  * Return: the length of the string
  */
 int _strlen(char *str)
-
+{
 	int len = 0;
 
 	while (*str++)
