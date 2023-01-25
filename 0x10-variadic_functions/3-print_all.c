@@ -4,8 +4,7 @@
 
 /**
  * print_all - prints everything
- * @format: types of arguments passed
- * @...: indefinite variables
+ * @format:list of types of arguments passed to the function
  *
  * Return: no return
  */
@@ -25,22 +24,23 @@ void print_all(const char * const format, ...)
 			if (format[i] == t_arg[j] && c)
 			{
 				printf(", ");
+				break;
 			} j++;
 		}
 		switch (format[i])
 		{
-			case 'c':
+		case 'c':
 			printf("%c", va_arg(list, int)), c = 1;
 			break;
-			case 'i':
+		case 'i':
 			printf("%i", va_arg(list, int)), c = 1;
 			break;
-			case 'f':
+		case 'f':
 			printf("%f", va_arg(list, double)), c = 1;
 			break;
-			case 's':
+		case 's':
 			str = va_arg(list, char *), c = 1;
-			if (str)
+			if (!str)
 			{
 				printf("(nil)");
 				break;
