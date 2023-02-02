@@ -3,8 +3,8 @@
 /**
  * add_nodeint_end - function that adds a new node at the
  * end of a listint_t list.
- * @head: new nodes of listint_t
- * @n: parameters of nodes
+ * @head: pointer to the first element in the list
+ * @n: data to insert to new element
  *
  * Return: the address of the new element, or NULL if it failed
  */
