@@ -32,6 +32,7 @@ len++;
 break;
 }
 }
+
 *h = NULL;
 
 return (len);
